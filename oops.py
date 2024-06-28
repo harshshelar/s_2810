@@ -8,18 +8,20 @@
 
 # 1st example
 
-#class A:
- #   def m1(self):
-  #      print("In m1")
+class A:
+    def m1(self):
+        print("In m1")
 
-#class B:
- #   pass
+class B:
+    pass 
+class C:
+    pass
 
-#obj1 =A()
-#obj1.m1()
+obj1 =A()
+obj1.m1()
 
-#obj2 = B()
-#obj2.m1()
+obj2 = B()
+obj2.m1()
 
 
 # 2nd example
@@ -159,7 +161,8 @@ print(C.mro())    #list
         
 
 
-
+def func():
+    print("for testing git")
 
 
 
