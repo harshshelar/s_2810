@@ -17,12 +17,16 @@ class B:
 class C:
     pass
 
+class D:
+
 obj1 =A()
 obj1.m1()
 
 obj2 = B()
 obj2.m1()
-
+ 
+obj3 = D() 
+obj2.m1()
 
 # 2nd example
 
@@ -159,10 +163,15 @@ class C(B):
 
 print(C.mro())    #list
         
-
+def func():
+    print("for testing git")
 
 def func():
     print("for testing git")
+
+
+
+
 
 
 
